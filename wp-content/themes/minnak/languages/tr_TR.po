@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MiNNaK\n"
+"POT-Creation-Date: 2020-08-13 02:36+0300\n"
+"PO-Revision-Date: 2020-08-13 03:01+0300\n"
+"Last-Translator: \n"
+"Language-Team: tamermancar\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx:1,2;_nx_noop:4c,1,2;"
+"_ex:1,2c;esc_attr;esc_attr__;esc_attr_e;esc_attr_x;esc_attr_x:1,2c;esc_html;"
+"esc_html__;esc_html_e;esc_html_x;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugins\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hata! Sayfa bulunamadı."
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Bir şey bulunamadı. Arama yapabilirsin ya da aşağıdaki bağlantılardan biri "
+"yardımcı olabilir."
+
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "&ldquo;%1$s&rdquo; için bir yorum"
+
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; için %1$s yorum"
+msgstr[1] "&ldquo;%2$s&rdquo; için %1$s yorum"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Yoruma kapalı."
+
+#: functions.php:43
+msgid "Primary Menu"
+msgstr "Birincil Menü"
+
+#: functions.php:44
+msgid "Sidebar Footer Menu"
+msgstr "Sidebar Alt Menü"
+
+#: functions.php:128
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:130
+msgid "Add widgets here."
+msgstr "Bileşenleri buraya ekle."
+
+#: functions.php:323
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions.php:323
+msgid "Proudly powered by WordPress"
+msgstr "WordPress tarafından desteklenmektedir"
+
+#: functions.php:323
+msgid "Copyright"
+msgstr "Tüm Hakları Saklıdır"
+
+#: functions.php:345
+msgid "Theme: MiNNaK by "
+msgstr "Tema: Minnak, Geliştirici: "
+
+#: header.php:26
+msgid "Loading"
+msgstr "Yükleniyor"
+
+#: header.php:27
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "İçeriğe atla"
+
+#: inc/customizer.php:61
+msgid "General theme settings"
+msgstr "Genel tema ayarları"
+
+#: inc/customizer.php:80
+msgid "How many columns should the articles be listed?"
+msgstr "Yazılar kaç sütunda listelensin?"
+
+#: inc/customizer.php:105
+msgid "Which menu would you like to use?"
+msgstr "Hangi menüyü kullanmak istersin?"
+
+#: inc/customizer.php:111
+msgid "Only Main Menu"
+msgstr "Sadece Ana Menü"
+
+#: inc/customizer.php:112
+msgid "Only Category Menu"
+msgstr "Sadece Kategori Menüsü"
+
+#: inc/customizer.php:113
+msgid "Both Menus"
+msgstr "İki Menüyü Birlikte"
+
+#: inc/customizer.php:131
+msgid "Show search"
+msgstr "Aramayı göster"
+
+#: inc/customizer.php:152
+msgid "Show author bio on single post"
+msgstr "Yazı sonunda yazar biyografisini göster"
+
+#: inc/customizer.php:172
+msgid "Show footer credit"
+msgstr "Geliştirici bilgisini göster"
+
+#: inc/customizer.php:201
+msgid "Footer copyright"
+msgstr "Telif metni"
+
+#: inc/customizer.php:202
+msgid "Replace the footer copyright text.<br><strong>HTML</strong> is allowed!"
+msgstr ""
+"Telif metnini değiştir.<br><strong>HTML</strong> kodları kullanılabilir!"
+
+#: inc/customizer.php:207
+msgid "Enter custom copyright..."
+msgstr "Telif metni yaz..."
+
+#: inc/customizer.php:265
+msgid "Social media links"
+msgstr "Sosyal medya bağlantıları"
+
+#: inc/customizer.php:267
+msgid "Enter the full URL for each service to appear in the sidebar."
+msgstr ""
+"Sosyal medya ikonlarının sidebarda görünmesi için her servisin tam adresini "
+"gir."
+
+#: inc/customizer.php:284
+msgid "URL:"
+msgstr "Adresi:"
+
+#: inc/customizer.php:307
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:317
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:327
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:337
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/customizer.php:347
+msgid "Digg"
+msgstr "Digg"
+
+#: inc/customizer.php:357
+msgid "AIM"
+msgstr "AIM"
+
+#: inc/customizer.php:367
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer.php:377
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/customizer.php:387
+msgid "Behance"
+msgstr "Behance"
+
+#: inc/customizer.php:397
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/customizer.php:407
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/customizer.php:417
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/customizer.php:427
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer.php:437
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer.php:447
+msgid "Discord"
+msgstr "Discord"
+
+#: inc/customizer.php:457
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: inc/customizer.php:468
+msgid "Codepen"
+msgstr "Codepen"
+
+#: inc/customizer.php:478
+msgid "Spotify"
+msgstr "Spotify"
+
+#: inc/customizer.php:488
+msgid "Anchor-Podcast"
+msgstr "Anchor-Podcast"
+
+#: inc/customizer.php:498
+msgid "Google-Podcast"
+msgstr "Google-Podcast"
+
+#: inc/customizer.php:508
+msgid "Apple-Podcast"
+msgstr "Apple-Podcast"
+
+#: inc/customizer.php:518
+msgid "RSS"
+msgstr "RSS"
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "%s yazdı"
+
+#: inc/template-tags.php:41
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "%s tarafından"
+
+#: inc/template-tags.php:66
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> için bir yorum yaz"
+
+#: inc/template-tags.php:84 template-parts/content-page.php:43
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Düzenle <span class=\"screen-reader-text\">%s</span>"
+
+#: search.php:22
+#, php-format
+msgid "Search results for: %s"
+msgstr "%s için arama sonuçları"
+
+#: searchform.php:3 searchform.php:6
+msgid "Search for:"
+msgstr "Şunun için ara:"
+
+#: searchform.php:6
+msgid "Search..."
+msgstr "Ara..."
+
+#: single.php:26 single.php:33
+msgid "Previous"
+msgstr "Önceki"
+
+#: single.php:27 single.php:34
+msgid "Next"
+msgstr "Sonraki"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Hiçbir Şey Bulunamadı"
+
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"İlk yazını yayınlamaya hazır mısın? <a href=\"%1$s\">Buradan başla</a>."
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Maalesef arama terimlerinle hiçbir şey eşleşmedi. Lütfen farklı anahtar "
+"kelimelerle tekrar dene."
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Aradığın bulunamadı. Belki yeni bir arama yapabilirsin."
+
+#: template-parts/content-page.php:29 template-parts/content.php:119
+msgid "Pages:"
+msgstr "Sayfa:"
+
+#: template-parts/content.php:64 template-parts/content.php:79
+msgid ", "
+msgstr ", "
+
+#: template-parts/content.php:97
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Okumaya devam et<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content.php:111 template-parts/content.php:113
+msgid "Read more"
+msgstr "Devamı"
+
+#: template-parts/content.php:138
+msgid "Author:"
+msgstr "Yazar:"
+
+#: template-parts/content.php:143
+msgid "Website"
+msgstr "Website"
+
+#: template-parts/content.php:149
+msgid "All posts"
+msgstr "Tüm yazıları"

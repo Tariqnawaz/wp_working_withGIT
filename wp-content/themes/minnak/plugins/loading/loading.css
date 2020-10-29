@@ -1,0 +1,120 @@
+/*
+ initialize rotation key frames,  
+*/
+@keyframes minnak_l_spinner {
+    to {
+        transform: rotate(360deg)
+    }
+}
+@keyframes minnak_r_spinner {
+  to {
+      transform: rotate(-360deg)
+  }
+}
+/*
+The page overlay DIV, you can style it as you like, 
+*/
+#page-overlay {
+    /*
+    basic styles
+    */
+    text-align: center;
+    color: #1e73be;
+    padding-top: 10px;
+    font-size: .7em;
+    display: block;
+    background-color: #FFF;
+    
+    /*
+    important to work properly
+    */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999999999;/* highest top level layer */
+    
+    /*
+    required for fade-out/fade-in animation effect
+    */
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out
+}
+/*
+show our loading layer
+*/
+#page-overlay.loading {
+    opacity: 1;
+    visibility: visible
+}
+/*
+hide our loading layer
+*/
+#page-overlay.loaded,
+#page-overlay>span {
+    opacity: 0
+}
+/*
+create the animated spinner
+*/
+#page-overlay.loading:before {
+    /*
+    required to work
+    */
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+/*
+    centering the spinner on the page
+    */
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    border-radius: 50%;
+/*
+    create the spinner with css, no image required :)
+    */
+    border-left: 1px solid #222527;
+    border-top: 1px solid #222527;
+    border-right: 1px solid transparent;
+/*
+    animate the spinner
+    */
+    animation: minnak_l_spinner .4s linear infinite
+}
+#page-overlay.loading:after {
+  /*
+  required to work
+  */
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+/*
+  centering the spinner on the page
+  */
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: -20px;
+  border-radius: 50%;
+/*
+  create the spinner with css, no image required :)
+  */
+  border-bottom: 1px solid #222527;
+  border-left: 1px solid transparent;
+/*
+  animate the spinner
+  */
+  animation: minnak_r_spinner .5s linear infinite
+}
